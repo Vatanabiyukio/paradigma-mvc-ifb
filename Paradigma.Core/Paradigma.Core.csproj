@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Negocio\DAO" />
+      <Folder Include="Negocio\DTO" />
+    </ItemGroup>
+
 </Project>
