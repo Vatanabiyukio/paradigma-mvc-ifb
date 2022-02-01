@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.Triagem/Api.Triagem.csproj": {}
+    "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.IMC/Api.IMC.csproj": {}
   },
   "projects": {
-    "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.Triagem/Api.Triagem.csproj": {
+    "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.IMC/Api.IMC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.Triagem/Api.Triagem.csproj",
-        "projectName": "Api.Triagem",
-        "projectPath": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.Triagem/Api.Triagem.csproj",
+        "projectUniqueName": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.IMC/Api.IMC.csproj",
+        "projectName": "Api.IMC",
+        "projectPath": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.IMC/Api.IMC.csproj",
         "packagesPath": "/Users/viniciusvatanabi/.nuget/packages/",
-        "outputPath": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.Triagem/obj/",
+        "outputPath": "/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Api.IMC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/viniciusvatanabi/.nuget/NuGet/NuGet.Config"
