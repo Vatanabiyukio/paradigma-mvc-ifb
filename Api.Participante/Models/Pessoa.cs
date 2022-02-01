@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Api.Participante.Models;
 
@@ -22,13 +23,9 @@ public class Pessoa
     // ========= Contato de Emergência =========
     public int? TelefoneEmergencia { get; set; }
 
-    // ========= Endereço =========
-    public int? Cep { get; set; }
-    public string? Logradouro { get; set; }
-    public string? Complemento { get; set; }
-    public string? Referencia { get; set; }
-    public Uf? Uf { get; set; }
-    public string? Cidade { get; set; }
+    // ========= Endereços =========
+    public List<Endereco> Enderecos { get; set; }
+    public Endereco EnderecoPrincipal { get; set; }
 
     // ========= Dados Convenio =========
     [Required]
@@ -45,7 +42,7 @@ public class Pessoa
     public List<Cid>? Alergias { get; set; }
 
 }
-
+[NotMapped]
 public class ConveniadoAttribute : ValidationAttribute
 {
     protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
