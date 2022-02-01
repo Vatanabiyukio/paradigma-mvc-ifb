@@ -39,6 +39,11 @@ public class Pessoa
     public int? MatriculaConvenio { get; set; }
     [Conveniado]
     public DateOnly? ValidadeConvenio { get; set; }
+    
+    // ========= Dados Médicos =========
+    public Sangue? TipoSanguineo { get; set; }
+    public List<Cid>? Alergias { get; set; }
+
 }
 
 public class ConveniadoAttribute : ValidationAttribute
