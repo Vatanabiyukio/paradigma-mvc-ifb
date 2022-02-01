@@ -12,6 +12,10 @@ public class Pessoa
     public string Nome { get; set; }
     [Required]
     public int Cpf { get; set; }
+    [Required]
+    public int Idade { get; set; }
+    [Required]
+    public Sexo Sexo { get; set; }
     
     // ========= Contato =========
     [Required]
@@ -40,7 +44,17 @@ public class Pessoa
     // ========= Dados Médicos =========
     public Sangue? TipoSanguineo { get; set; }
     public List<Cid>? Alergias { get; set; }
+    public List<Remedio>? Remedios { get; set; }
+    public int? PressaoSistolica { get; set; }
+    public int? PressaoDiastolica { get; set; }
+    public List<Cid> Outros { get; set; }
 
+    // ========= Dados Físicos =========
+    public decimal? Altura { get; set; }
+    public decimal? Peso { get; set; }
+    public bool Deficiente { get; set; }
+    public List<Cid>? Deficiencias { get; set; }
+    public bool Gestante { get; set; }
 }
 [NotMapped]
 public class ConveniadoAttribute : ValidationAttribute
