@@ -34,11 +34,8 @@ public class Pessoa
     // ========= Dados Convenio =========
     [Required]
     public bool? Conveniado { get; set; }
-    [Conveniado]
     public string? NomeConvenio { get; set; }
-    [Conveniado]
     public int? MatriculaConvenio { get; set; }
-    [Conveniado]
     public DateOnly? ValidadeConvenio { get; set; }
     
     // ========= Dados Médicos =========
@@ -55,17 +52,4 @@ public class Pessoa
     public bool Deficiente { get; set; }
     public List<Cid>? Deficiencias { get; set; }
     public bool Gestante { get; set; }
-}
-[NotMapped]
-public class ConveniadoAttribute : ValidationAttribute
-{
-    protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
-    {
-        var pessoa = (Pessoa) validationContext.ObjectInstance;
-        if (pessoa.Conveniado.Equals(true))
-            return ValidationResult.Success;
-
-        var campo = value as string;
-        return (string.IsNullOrWhiteSpace(campo) ? new ValidationResult("Value is required.") : ValidationResult.Success);
-    }
 }
