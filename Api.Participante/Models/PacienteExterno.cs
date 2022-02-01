@@ -41,6 +41,7 @@ public class PacienteExterno : Pessoa
     public bool Gestante { get; set; }
     
     // ========= Decisão =========
-    public bool Admitido { get; set; }
-    public Severidade Atencao { get; set; }
+    public bool? Admitido { get; set; }
+    public Severidade? Atencao { get; set; }
+    public DateTime? Admissao { get; set; }
 }
