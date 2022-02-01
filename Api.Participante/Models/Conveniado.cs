@@ -9,4 +9,5 @@ public class Conveniado : Pessoa
     public string Convenio { get; set; }
     [Required]
     public string Matricula { get; set; }
+    public DateOnly? Validade { get; set; }
 }
