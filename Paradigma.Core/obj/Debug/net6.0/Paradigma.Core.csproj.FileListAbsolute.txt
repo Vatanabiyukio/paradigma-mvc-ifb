@@ -1,0 +1,15 @@
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/Paradigma.Core
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/Paradigma.Core.deps.json
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/Paradigma.Core.runtimeconfig.json
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/Paradigma.Core.dll
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/ref/Paradigma.Core.dll
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/bin/Debug/net6.0/Paradigma.Core.pdb
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.csproj.AssemblyReference.cache
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.AssemblyInfoInputs.cache
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.AssemblyInfo.cs
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.csproj.CoreCompileInputs.cache
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.dll
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/ref/Paradigma.Core.dll
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.pdb
+/Users/viniciusvatanabi/Desktop/paradigma-mvc-ifb/Paradigma.Core/obj/Debug/net6.0/Paradigma.Core.genruntimeconfig.cache
