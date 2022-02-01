@@ -1,4 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("BDYukio") ?? "Data Source=Autenticacao.db";
 
 // Add services to the container.
 
